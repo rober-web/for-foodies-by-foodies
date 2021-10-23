@@ -10,6 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ForFoodiesByFoodies">
         <activity
+            android:name=".PageBooking"
+            android:exported="false" />
+        <activity
+            android:name=".PageUserProfileView"
+            android:exported="false" />
+        <activity
+            android:name=".FormUserProfileEdit"
+            android:exported="false" />
+        <activity
+            android:name=".FormCreateReview"
+            android:exported="false" />
+        <activity
+            android:name=".PageReviewsSingle"
+            android:exported="false" />
+        <activity
+            android:name=".PageReviewsList"
+            android:exported="false" />
+        <activity
+            android:name=".PageRestaurantSingle"
+            android:exported="false" />
+        <activity
+            android:name=".FormAddStreetFood"
+            android:exported="false" />
+        <activity
+            android:name=".FormAddRestaurantAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".PageRestaurantList"
+            android:exported="false" />
+        <activity
+            android:name=".FormRegisterAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".FormReset"
+            android:exported="false" />
+        <activity
+            android:name=".FormRegister"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
