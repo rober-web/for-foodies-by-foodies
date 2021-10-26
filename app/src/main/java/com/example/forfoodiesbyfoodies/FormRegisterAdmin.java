@@ -9,6 +9,6 @@ public class FormRegisterAdmin extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_form_register_admin);
+        setContentView(R.layout.activity_form_add_restaurant_admin);
     }
 }

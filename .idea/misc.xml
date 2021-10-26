@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/admin_register_form_container_components.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/login_form_container_components.xml" value="0.2703125" />
-        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_login.xml" value="0.264" />
-        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_register.xml" value="0.176" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/register_form_container_components.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/register_form_container_components_.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_add_restaurant_admin.xml" value="0.264" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_login.xml" value="0.4" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_register.xml" value="0.264" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_register_admin.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_user_profile_edit.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_page_booking.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_page_user_profile_view.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

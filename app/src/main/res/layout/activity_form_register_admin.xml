@@ -4,6 +4,115 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FormRegisterAdmin">
+    android:background="@drawable/bg_img_app"
+    tools:context=".FormAddRestaurantAdmin">
+
+
+    <View
+        android:id="@+id/admin_regform_container_components"
+        style="@style/AdminRegisterFormContainerComponents"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/edt_txt_reg_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Admin | Register Page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <EditText
+        android:id="@+id/edt_txt_reg_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/admin_regform_container_components" />
+
+    <EditText
+        android:id="@+id/edt_txt_reg_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_txt_reg_name"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="****************"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_txt_reg_email"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <EditText
+        android:id="@+id/edt_txt_reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="my@mail.com"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_txt_reg_surname"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/btn_create_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/deep_saffron"
+        android:text="Create User"
+        app:layout_constraintBottom_toBottomOf="@id/admin_regform_container_components"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbx_restaurant_critic" />
+
+    <CheckBox
+        android:id="@+id/cbx_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:text="ADMIN"
+        app:layout_constraintEnd_toStartOf="@+id/cbx_user"
+        app:layout_constraintStart_toStartOf="@+id/admin_regform_container_components"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <CheckBox
+        android:id="@+id/cbx_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:text="USER"
+        app:layout_constraintEnd_toEndOf="@+id/admin_regform_container_components"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <CheckBox
+        android:id="@+id/cbx_restaurant_critic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Restaurant Critic"
+        app:layout_constraintEnd_toEndOf="@+id/admin_regform_container_components"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="@+id/admin_regform_container_components"
+        app:layout_constraintTop_toBottomOf="@+id/cbx_admin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
