@@ -18,15 +18,19 @@
     <style name="AdminRegisterFormContainerComponents">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">500dp</item>
-        <item name="android:background">@drawable/login_form_container_components</item>
+        <item name="android:background">@drawable/admin_register_form_container_components</item>
         <item name="android:layout_margin">20dp</item>
     </style>
 
-    <style name="ResetFormContainerComponents">
+    <style name="RestaurantListContainerComponent">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">500dp</item>
-        <item name="android:background">@drawable/login_form_container_components</item>
+        <item name="android:background">@drawable/restaurant_list_container_component</item>
         <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.BottomAppBar." parent="Theme.MaterialComponents.Light.NoActionBar">
+
     </style>
 
 </resources>

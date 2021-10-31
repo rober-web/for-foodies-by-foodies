@@ -4,6 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_img_app"
     tools:context=".PageRestaurantList">
+
+    <TextView
+        android:id="@+id/edt_txt_restaurants_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Restaurants"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <View
+        android:id="@+id/view_restaurant_list_container"
+        style="@style/RestaurantListContainerComponent"
+        android:layout_width="368dp"
+        android:layout_height="135dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <ImageView
+        android:id="@+id/img_view_res_pic"
+        android:layout_width="110dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_restaurant_list_container"
+        app:layout_constraintStart_toStartOf="@+id/view_restaurant_list_container"
+        app:layout_constraintTop_toTopOf="@+id/view_restaurant_list_container"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/txt_view_restaurant_title"
+        android:layout_width="120dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Restaurante Title"
+        app:layout_constraintEnd_toEndOf="@+id/view_restaurant_list_container"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toEndOf="@+id/img_view_res_pic"
+        app:layout_constraintTop_toTopOf="@+id/view_restaurant_list_container" />
+
+    <TextView
+        android:id="@+id/txt_view_rest_description"
+        android:layout_width="227dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Here must go an excerpt of the restaurant' review"
+        app:layout_constraintEnd_toEndOf="@+id/view_restaurant_list_container"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toEndOf="@+id/img_view_res_pic"
+        app:layout_constraintTop_toBottomOf="@+id/txt_view_restaurant_title" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="223dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_restaurant_list_container"
+        app:layout_constraintStart_toEndOf="@+id/img_view_res_pic"
+        app:layout_constraintTop_toBottomOf="@+id/txt_view_rest_description"
+        app:layout_constraintVertical_bias="0.548"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txt_view_load_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:text="Load More..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/img_btn_home"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/ic_home"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="671dp"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/img_btn_menu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/ic_menu"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="671dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
