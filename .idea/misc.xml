@@ -7,11 +7,13 @@
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/ic_eye.xml" value="0.2703125" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/ic_home.xml" value="0.2703125" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/ic_star_rating_edit.xml" value="0.2703125" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/login_form_container_components.xml" value="0.2703125" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/register_form_container_components.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/register_form_container_components_.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/reset_form_container_components.xml" value="0.2703125" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/restaurant_list_container_component.xml" value="0.2703125" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/drawable/restaurant_single_container_component.xml" value="0.2703125" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_add_restaurant_admin.xml" value="0.264" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_add_street_food.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_form_login.xml" value="0.4" />
@@ -22,6 +24,7 @@
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_page_booking.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_page_restaurant_list.xml" value="0.27906976744186046" />
+        <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_page_restaurant_single.xml" value="0.264" />
         <entry key="..\:/Users/rober/AndroidStudioProjects/ForFoodiesByFoodies2/app/src/main/res/layout/activity_page_user_profile_view.xml" value="0.25416666666666665" />
       </map>
     </option>

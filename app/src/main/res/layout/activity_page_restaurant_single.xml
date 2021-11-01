@@ -4,6 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_img_app"
     tools:context=".PageRestaurantSingle">
+
+
+    <View
+        android:id="@+id/restaurant_single_component"
+        style="@style/RestaurantSingleContainerComponent"
+        android:layout_width="368dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_view_main_single"
+        android:layout_width="368dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="@id/restaurant_single_component"
+        app:layout_constraintStart_toStartOf="@id/restaurant_single_component"
+        app:layout_constraintTop_toTopOf="@id/restaurant_single_component"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/img_view_mini"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txt_view_restaurant_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Title"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:id="@+id/txt_view_rest_description"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin lacus et lobortis iaculis."
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="164dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <ImageButton
+        android:id="@+id/img_btn_home"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_btn_menu"
+        app:srcCompat="@drawable/ic_home"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageButton
+        android:id="@+id/img_btn_menu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/img_btn_home"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_btn_calendar"
+        app:srcCompat="@drawable/ic_menu"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageButton
+        android:id="@+id/img_btn_calendar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/img_btn_menu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_btn_rate_review"
+        app:srcCompat="@drawable/ic_calendar"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageButton
+        android:id="@+id/img_btn_rate_review"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/img_btn_calendar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:srcCompat="@drawable/ic_rate_review"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/img_btn_rate_review"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_star_rating"
+        tools:layout_editor_absoluteY="670dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
